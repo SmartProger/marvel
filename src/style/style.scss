@@ -1,6 +1,7 @@
-@import './variables';
+@use "sass:meta";
+@use 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
-@import './button';
+@include meta.load-css('button');
 
 * {
     font-family: "Roboto Condensed", sans-serif;

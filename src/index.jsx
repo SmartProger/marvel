@@ -2,7 +2,7 @@ import {createRoot} from "react-dom/client";
 import App from "./components/app/App";
 import MarvelService from "./srvices/MarvelService";
 
-import "./style/style.scss";
+import "@/style/style.scss";
 
 const marvelService = new MarvelService();
 
